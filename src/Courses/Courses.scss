@@ -1,0 +1,37 @@
+@import "../_variables";
+
+.courses {
+  display: inline-block;
+}
+
+.course {
+  display: flex;
+  margin-top: 8px;
+  border-bottom: 1px solid $light100;
+  padding-bottom: 8px;
+}
+
+.course:last-of-type {
+  border-bottom: 0;
+}
+
+.course__provider {
+  @include standardText(1rem, 600);
+  width: 120px;
+}
+
+.course__title {
+  @include standardText();
+  display: flex;
+  align-items: center;
+}
+
+.course__title::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: $primary;
+  margin-right: 0.5rem;
+}

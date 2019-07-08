@@ -1,0 +1,49 @@
+@import "../_variables";
+
+.header {
+  display: flex;
+  min-height: 140px;
+  padding: 20px;
+  background: $primary;
+  position: relative;
+  z-index: 2;
+}
+
+.header__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid $light;
+}
+
+.header__info {
+  margin-left: 30px;
+}
+
+.header__contacts {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.header__contacts-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  @include lightText;
+}
+
+.header__contacts-row i {
+  margin-right: 8px;
+}
+
+.header__name {
+  margin-bottom: 5px;
+  color: $light;
+}
+
+.header__position {
+  @include lightText;
+}
+

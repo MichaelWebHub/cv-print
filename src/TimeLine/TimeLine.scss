@@ -1,0 +1,107 @@
+@import "../_variables";
+
+.timeline {
+  position: relative;
+}
+
+.timeline__line {
+  position: absolute;
+  width: 2px;
+  height: 300px;
+  background: $primary;
+  z-index: 1;
+}
+
+.timeline__element {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.timeline__element:last-of-type {
+  margin-bottom: 0;
+}
+
+.timeline__element-left {
+  width: calc(150px - 1.8125rem);
+}
+
+.timeline__element-left--row {
+  height: 20px;
+  @include standardText(0.875rem);
+}
+
+.timeline__element-left--row.country {
+  font-weight: 300;
+}
+
+.timeline__element-center {
+  width: 3.625rem;
+  height: 3.625rem;
+  min-width: 3.625rem;
+  min-height: 3.625rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.timeline__center-inner {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background: #fff;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  //box-shadow: 0 5px 20px 0 $boxShadowColor;
+
+  position: relative;
+  z-index: 2;
+}
+
+.timeline__center-inner::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  min-width: 10px;
+  min-height: 10px;
+  border-radius: 50%;
+  background: $primary;
+}
+
+.timeline__element-right {
+  width: calc(100% - 150px - 1.8125rem);
+}
+
+.timeline__element-name {
+  @include standardText(1.125rem, 600);
+}
+
+.timeline__element-position {
+  margin-top: 2px;
+  @include standardText();
+}
+
+.timeline__element-achievements {
+  max-height: 95px;
+  margin-top: 2px;
+  @include standardText(0.875rem, 300)
+}
+
+.timeline__achievement-wrapper {
+  display: flex;
+}
+
+.timeline__achievements-label {
+  background-color: $primary;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  display: inline-block;
+  width: 6px;
+  min-width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
