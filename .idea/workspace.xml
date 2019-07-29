@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4efc2b49-2b91-4efc-9619-1be331165c66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Education/Education.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLine.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLine.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLine.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLine.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLine.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLine.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLineElement/TimeLineElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLineElement/TimeLineElement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,23 +24,6 @@
         <option value="SCSS File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>$softBlue</find>
-      <find>rem(20px)</find>
-      <find>rem(10px)</find>
-      <find>map</find>
-      <find>key</find>
-      <find>timeline__achievement</find>
-      <find>box</find>
-      <find>timeline__element-achievements</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>$primary</replace>
-      <replace>20px</replace>
-      <replace>10px</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,7 +93,9 @@
       <workItem from="1562581687787" duration="19677000" />
       <workItem from="1562960062952" duration="86000" />
       <workItem from="1562960210237" duration="30000" />
-      <workItem from="1563977551661" duration="12000" />
+      <workItem from="1563977551661" duration="327000" />
+      <workItem from="1564206750560" duration="3523000" />
+      <workItem from="1564403567799" duration="626000" />
     </task>
     <servers />
   </component>
@@ -126,7 +116,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

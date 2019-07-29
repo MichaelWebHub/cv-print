@@ -14,7 +14,7 @@
 
 .timeline__element {
   display: flex;
-  margin-bottom: 1rem;
+  //margin-bottom: 1rem;
 }
 
 .timeline__element:last-of-type {
@@ -36,12 +36,13 @@
 
 .timeline__element-center {
   width: 3.625rem;
-  height: 3.625rem;
+  //height: 3.625rem;
   min-width: 3.625rem;
   min-height: 3.625rem;
 
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .timeline__center-inner {
@@ -62,6 +63,14 @@
   z-index: 2;
 }
 
+.timeline__element:not(:last-child) .timeline__element-center::after {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: $primary;
+}
+
 .timeline__center-inner::before {
   content: '';
   width: 10px;
@@ -74,14 +83,28 @@
 
 .timeline__element-right {
   width: calc(100% - 150px - 1.8125rem);
+  padding-bottom: 1rem;
 }
 
 .timeline__element-name {
   @include standardText(1.125rem, 600);
+  display: flex;
+  align-items: center;
+}
+
+.timeline__element-logo--wrapper {
+  min-width: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.timeline__element-logo {
+  height: 25px;
+  margin-right: 5px;
 }
 
 .timeline__element-position {
-  margin-top: 2px;
+  margin-top: 4px;
   @include standardText();
 }
 

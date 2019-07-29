@@ -1,6 +1,10 @@
 import React from 'react';
 import TimeLine from '../TimeLine/TimeLine';
 import { ITimeLine } from '../TimeLine/TimeLine.interface';
+import Sberbank from '../assets/images/sber.png';
+import Netology from '../assets/images/netology.png';
+import Psi from '../assets/images/psi.png';
+import Ilf from '../assets/images/ilf.png';
 
 const WorkExperience: React.FC = () => {
 
@@ -11,6 +15,7 @@ const WorkExperience: React.FC = () => {
       sEndDate: 'current',
       sPlace: 'PJSC Sberbank',
       sParamName: 'Senior Frontend Developer',
+      sImage: Sberbank,
       aAchievements: [
         {
           iId: 1,
@@ -41,6 +46,7 @@ const WorkExperience: React.FC = () => {
       sEndDate: 'current',
       sPlace: 'Netology - Online University',
       sParamName: 'Teacher at HTML/CSS course',
+      sImage: Netology,
       aAchievements: [
         {
           iId: 1,
@@ -64,13 +70,15 @@ const WorkExperience: React.FC = () => {
       sEndDate: '11.2017',
       sPlace: 'ILF Consulting Engineers',
       sParamName: 'Intern Engineer',
+      sImage: Ilf,
       sCountry: 'Munich, Germany'
     },
     {
       iId: 5,
       sBeginDate: '10.2014',
       sEndDate: '11.2017',
-      sPlace: 'PSI AG',
+      sPlace: 'PSI Software AG',
+      sImage: Psi,
       sParamName: 'Software Engineer'
     }
   ];

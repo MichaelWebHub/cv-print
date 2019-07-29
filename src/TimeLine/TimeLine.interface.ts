@@ -1,8 +1,12 @@
+import React from 'react';
+
 export interface ITimeLine {
   iId: number;
   sBeginDate: string;
   sEndDate: string;
   sPlace: string;
+  sImage?: string;
+  sImageWidth?: string;
   sCountry?: string;
   sParamName?: string;
   aAchievements?: ITimelineAchievement[];

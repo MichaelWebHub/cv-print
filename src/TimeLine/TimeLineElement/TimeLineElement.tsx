@@ -20,7 +20,13 @@ const TimeLineElement: React.FC<ITimeLineElement> = ({ item }) => {
         <div className='timeline__center-inner'/>
       </div>
       <div className={`timeline__element-right`}>
-        <h3 className='timeline__element-name'>{item.sPlace}</h3>
+        <h3 className='timeline__element-name'>
+          {item.sImage && (
+            <div className='timeline__element-logo--wrapper'>
+              <img className='timeline__element-logo' style={{width: item.sImageWidth ? item.sImageWidth  : ''}} src={item.sImage} alt=''/>
+            </div>)}
+          {item.sPlace}
+        </h3>
         {item.sParamName ? <p className='timeline__element-position'>{item.sParamName}</p> : ''}
 
         {
