@@ -3,12 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4efc2b49-2b91-4efc-9619-1be331165c66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Education/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLine.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLine.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Courses/Courses.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Courses/Courses.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hobby/Hobby.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hobby/Hobby.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLine.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLine.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLine.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLine.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLineElement/TimeLineElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLineElement/TimeLineElement.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,15 +41,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
-  </component>
   <component name="ProjectId" id="1OSilWXOBWs1gqSfJirrjVF4kA8" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -95,7 +93,12 @@
       <workItem from="1562960210237" duration="30000" />
       <workItem from="1563977551661" duration="327000" />
       <workItem from="1564206750560" duration="3523000" />
-      <workItem from="1564403567799" duration="626000" />
+      <workItem from="1564403567799" duration="770000" />
+      <workItem from="1564404991593" duration="20000" />
+      <workItem from="1574452565225" duration="84000" />
+      <workItem from="1574452665494" duration="781000" />
+      <workItem from="1574515905178" duration="19000" />
+      <workItem from="1574525819697" duration="1929000" />
     </task>
     <servers />
   </component>

@@ -26,10 +26,10 @@ const App: React.FC = () => {
             <Education/>
           </div>
 
-          <div className="block">
-            <h3 className="block__title"><i className="fas fa-graduation-cap"/> Courses </h3>
-            <Courses/>
-          </div>
+          {/*<div className="block">*/}
+          {/*  <h3 className="block__title"><i className="fas fa-graduation-cap"/> Courses </h3>*/}
+          {/*  <Courses/>*/}
+          {/*</div>*/}
         </main>
 
         <aside className="aside">

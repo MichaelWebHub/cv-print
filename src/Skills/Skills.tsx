@@ -58,16 +58,16 @@ const Skills: React.FC = () => {
       id: 5,
       icon: 'fab fa-react',
       name: 'React',
-      rating: 7,
+      rating: 9,
       class: 'react',
     },
-    {
-      id: 10,
-      icon: 'fab fa-vuejs',
-      name: 'Vue',
-      rating: 5,
-      class: 'vue',
-    },
+    // {
+    //   id: 10,
+    //   icon: 'fab fa-vuejs',
+    //   name: 'Vue',
+    //   rating: 5,
+    //   class: 'vue',
+    // },
     {
       id: 6,
       image: redux,
@@ -96,20 +96,20 @@ const Skills: React.FC = () => {
       rating: 6,
       class: 'node'
     },
-    {
-      id: 11,
-      image: ionic,
-      name: 'Ionic',
-      rating: 5,
-      class: 'ionic'
-    },
-    {
-      id: 12,
-      image: ns,
-      name: 'NativeScript',
-      rating: 5,
-      class: 'nativescript',
-    },
+    // {
+    //   id: 11,
+    //   image: ionic,
+    //   name: 'Ionic',
+    //   rating: 5,
+    //   class: 'ionic'
+    // },
+    // {
+    //   id: 12,
+    //   image: ns,
+    //   name: 'NativeScript',
+    //   rating: 5,
+    //   class: 'nativescript',
+    // },
     {
       id: 7,
       icon: 'fab fa-github',

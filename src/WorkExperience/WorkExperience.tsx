@@ -19,21 +19,28 @@ const WorkExperience: React.FC = () => {
       aAchievements: [
         {
           iId: 1,
-          sName: 'Implemented Angular and React which resulted in Time To Market rate decrease',
+          sName: 'Implemented Angular and React instead of jQuery',
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
         },
         {
           iId: 2,
-          sName: 'Built HR Ecosystem web applications for 350.000+ users',
+          sName: 'Built 10 web apps for 350.000+ users',
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
         },
         {
           iId: 3,
-          sName: 'Received highest annual rate',
+          sName: 'Built smooth mobile components with close to native gestures',
+          iQuarter: 1,
+          iYear: 20184,
+          sDescription: 'Angular',
+        },
+        {
+          iId: 4,
+          sName: 'Drove best practice implementation for my team employees',
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
@@ -50,20 +57,43 @@ const WorkExperience: React.FC = () => {
       aAchievements: [
         {
           iId: 1,
-          sName: 'Taught 3500+ students',
+          sName: 'Taught 4000+ students the layouts',
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
         }
       ]
     },
-    // {
-    //   iId: 3,
-    //   sBeginDate: '11.2017',
-    //   sEndDate: '12.2017',
-    //   sPlace: 'amoCRM',
-    //   sParamName: 'Intern Frontend Developer'
-    // },
+    {
+      iId: 3,
+      sBeginDate: '01.2015',
+      sEndDate: 'current',
+      sPlace: 'Freelance Web Developer',
+      sParamName: '',
+      aAchievements: [
+        {
+          iId: 1,
+          sName: 'Wrote frontend for an e-commerce fashion startup',
+          iQuarter: 1,
+          iYear: 20184,
+          sDescription: 'Angular',
+        },
+        {
+          iId: 2,
+          sName: 'Created a MEAN stack website for a petrochemical company with its own CMS',
+          iQuarter: 1,
+          iYear: 20184,
+          sDescription: 'Angular',
+        },
+        {
+          iId: 3,
+          sName: 'Created a web app for Gubkin SPE where students can learn about oil and gas events and apply for them',
+          iQuarter: 1,
+          iYear: 20184,
+          sDescription: 'Angular',
+        }
+      ]
+    },
     {
       iId: 4,
       sBeginDate: '09.2017',
@@ -71,7 +101,23 @@ const WorkExperience: React.FC = () => {
       sPlace: 'ILF Consulting Engineers',
       sParamName: 'Intern Engineer',
       sImage: Ilf,
-      sCountry: 'Munich, Germany'
+      sCountry: 'Munich, Germany',
+      aAchievements: [
+        {
+          iId: 1,
+          sName: 'Abroad work experience',
+          iQuarter: 1,
+          iYear: 20173,
+          sDescription: 'Angular',
+        },
+        {
+          iId: 2,
+          sName: 'Modeled oil and gas equipment in 3D',
+          iQuarter: 1,
+          iYear: 20173,
+          sDescription: 'Angular',
+        }
+      ]
     },
     {
       iId: 5,
@@ -79,7 +125,23 @@ const WorkExperience: React.FC = () => {
       sEndDate: '11.2017',
       sPlace: 'PSI Software AG',
       sImage: Psi,
-      sParamName: 'Software Engineer'
+      sParamName: 'Software Engineer',
+      aAchievements: [
+        {
+          iId: 1,
+          sName: 'Draw SVG schemas for Gazprom control rooms',
+          iQuarter: 1,
+          iYear: 20173,
+          sDescription: 'Angular',
+        },
+        {
+          iId: 2,
+          sName: 'Wrote M42 scripts to connect schemas and database',
+          iQuarter: 1,
+          iYear: 20173,
+          sDescription: 'Angular',
+        }
+      ]
     }
   ];
 

@@ -27,8 +27,8 @@ const Hobby: React.FC = () => {
     },
     {
       id: 4,
-      icon: 'fas fa-dumbbell',
-      name: 'Work Out'
+      icon: 'fas fa-chart-bar',
+      name: 'Trade'
     }
   ];
 

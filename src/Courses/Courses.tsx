@@ -23,7 +23,7 @@ const Courses: React.FC = () => {
     {
       id: 3,
       provider: 'Udemy',
-      courses: ['Modern React with Redux', 'Angular 8 - The Complete Guide', 'Node JS: Advanced Concepts', 'Build Web Apps with Vue JS 2 & Firebase']
+      courses: ['Modern React with Redux', 'Angular 8 - The Complete Guide']
     },
     {
       id: 4,

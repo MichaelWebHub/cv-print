@@ -10,12 +10,12 @@ const Header: React.FC = () => {
 
       <div className="header__info">
         <h1 className="header__name">Michael Kutateladze</h1>
-          <p className="header__position"> Software Engineer </p>
-          <p className="header__position"> <span className='header__experience'>4+ years experience</span> </p>
+          <p className="header__position"> Front End Developer </p>
+          <p className="header__position"> <span className='header__experience'>4+ years of experience</span> </p>
       </div>
 
       <div className="header__contacts">
-        <div className="header__contacts-row"><i className="far fa-envelope"/>michael.kutateladze@yandex.ru</div>
+        <div className="header__contacts-row"><i className="far fa-envelope"/>michael.kutateladze@gmail.com</div>
         <div className="header__contacts-row"><i className="fas fa-phone"/>+7 (916) 924 26 94</div>
       </div>
 
