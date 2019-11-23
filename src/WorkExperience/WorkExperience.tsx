@@ -19,7 +19,7 @@ const WorkExperience: React.FC = () => {
       aAchievements: [
         {
           iId: 1,
-          sName: 'Implemented Angular and React instead of jQuery',
+          sName: 'Implemented Angular and React',
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
