@@ -44,7 +44,7 @@ const Skills: React.FC = () => {
       id: 13,
       image: ts,
       name: 'TypeScript',
-      rating: 9.2,
+      rating: 8,
       class: 'typescript',
     },
     {
@@ -52,13 +52,13 @@ const Skills: React.FC = () => {
       icon: 'fab fa-angular',
       name: 'Angular',
       class: 'angular',
-      rating: 9.4
+      rating: 9.5
     },
     {
       id: 5,
       icon: 'fab fa-react',
       name: 'React',
-      rating: 9,
+      rating: 9.5,
       class: 'react',
     },
     // {

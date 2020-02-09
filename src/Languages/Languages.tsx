@@ -23,12 +23,12 @@ const Languages: React.FC= () => {
       language: 'English',
       level: 'Upper Intermediate (FCE 170)'
     },
-    {
-      id: 3,
-      flag: '🇩🇪',
-      language: 'German',
-      level: 'Elementary'
-    }
+    // {
+    //   id: 3,
+    //   flag: '🇩🇪',
+    //   language: 'German',
+    //   level: 'Elementary'
+    // }
   ];
 
   return (

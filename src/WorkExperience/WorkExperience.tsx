@@ -14,7 +14,7 @@ const WorkExperience: React.FC = () => {
       sBeginDate: '05.2018',
       sEndDate: 'current',
       sPlace: 'PJSC Sberbank',
-      sParamName: 'Senior Frontend Developer',
+      sParamName: 'Frontend Developer',
       sImage: Sberbank,
       aAchievements: [
         {
