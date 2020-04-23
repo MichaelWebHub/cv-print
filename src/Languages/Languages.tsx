@@ -14,21 +14,21 @@ const Languages: React.FC= () => {
     {
       id: 1,
       flag: '🇷🇺',
-      language: 'Russian',
-      level: 'Native Speaker'
+      language: 'Русский',
+      level: 'Носитель'
     },
     {
       id: 2,
       flag: '🇺🇸',
-      language: 'English',
-      level: 'Upper Intermediate (FCE 170)'
+      language: 'Английский',
+      level: 'B1 Intermediate'
     },
-    // {
-    //   id: 3,
-    //   flag: '🇩🇪',
-    //   language: 'German',
-    //   level: 'Elementary'
-    // }
+    {
+      id: 3,
+      flag: '🇬🇪',
+      language: 'Грузинский',
+      level: 'Носитель'
+    }
   ];
 
   return (

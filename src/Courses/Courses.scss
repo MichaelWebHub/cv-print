@@ -17,7 +17,7 @@
 
 .course__provider {
   @include standardText(1rem, 600);
-  width: 120px;
+  //width: 120px;
 }
 
 .course__title {
@@ -26,9 +26,10 @@
   align-items: center;
 }
 
-.course__title::before {
+.course::before {
   content: '';
   display: inline-block;
+  margin-top: 8px;
   width: 6px;
   height: 6px;
   border-radius: 50%;

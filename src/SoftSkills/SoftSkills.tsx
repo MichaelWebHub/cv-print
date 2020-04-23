@@ -9,22 +9,25 @@ const SoftSkills: React.FC = () => {
 
   const data: ISoftSkill[] = [
     {
-      name: 'Leading a team of 8 developers'
+      name: '13 лет опыта в транспортной и складской логистике'
     },
     {
-      name: 'Learning new everyday'
+      name: '6 лет руководил отделом логистики'
     },
     {
-      name: 'Stay focused'
+      name: 'Управлял коллективом от 10 человек'
     },
     {
-      name: 'Agile working'
+      name: 'Умение вести переговоры'
     },
     {
-      name: 'Respect deadlines'
+      name: 'Опыт по организации и проведению тендеров'
     },
     {
-      name: 'Pay attention to details'
+      name: 'Внимание к деталям'
+    },
+    {
+      name: 'Большой опыт работы в северных регионах страны'
     }
   ];
 

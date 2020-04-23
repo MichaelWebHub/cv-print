@@ -13,7 +13,7 @@ export interface ITimeLine {
 }
 
 export interface ITimelineAchievement {
-  sName: string;
+  sName: React.ReactNode;
   iId: number;
   iQuarter: number;
   iYear: number;

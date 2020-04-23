@@ -4,10 +4,8 @@ import Header from './Header/Header';
 import WorkExperience from './WorkExperience/WorkExperience';
 import Education from './Education/Education';
 import Courses from './Courses/Courses';
-import Skills from './Skills/Skills';
 import Languages from './Languages/Languages';
 import SoftSkills from './SoftSkills/SoftSkills';
-import Hobby from './Hobby/Hobby';
 
 const App: React.FC = () => {
   return (
@@ -17,42 +15,47 @@ const App: React.FC = () => {
       <div className="body">
         <main className="main">
           <div className="block">
-            <h3 className="block__title"><i className="fas fa-briefcase"/> Work Experience</h3>
+            <h3 className="block__title"><i className="fas fa-briefcase"/> Работа</h3>
             <WorkExperience/>
           </div>
 
           <div className="block">
-            <h3 className="block__title"><i className="fas fa-university"/> Education </h3>
+            <h3 className="block__title"><i className="fas fa-university"/> Образование </h3>
             <Education/>
           </div>
 
-          {/*<div className="block">*/}
-          {/*  <h3 className="block__title"><i className="fas fa-graduation-cap"/> Courses </h3>*/}
-          {/*  <Courses/>*/}
-          {/*</div>*/}
-        </main>
-
-        <aside className="aside">
           <div className="block">
-            <h3 className="block__title"><i className="fas fa-tasks"/> Skills </h3>
-            <Skills/>
+            <h3 className="block__title"><i className="fas fa-graduation-cap"/> Курсы </h3>
+            <Courses/>
           </div>
 
-          <div className="block">
-            <h3 className="block__title"><i className="fas fa-user"/> Soft Skills </h3>
+          <div className="block avoid-page-break" style={{paddingTop: '30px'}}>
+            <h3 className="block__title"><i className="fas fa-user"/> Обо мне </h3>
             <SoftSkills/>
           </div>
 
           <div className="block">
-            <h3 className="block__title"><i className="fas fa-globe-europe"/> Languages </h3>
+            <h3 className="block__title"><i className="fas fa-globe-europe"/> Языки </h3>
             <Languages/>
           </div>
+        </main>
 
-          <div className="block">
-            <h3 className="block__title"><i className="fas fa-football-ball"/> Hobbies </h3>
-            <Hobby/>
-          </div>
-        </aside>
+        {/*<aside className="aside">*/}
+        {/*  <div className="block">*/}
+        {/*    <h3 className="block__title"><i className="fas fa-tasks"/> Навыки </h3>*/}
+        {/*    <Skills/>*/}
+        {/*  </div>*/}
+
+        {/*  <div className="block">*/}
+        {/*    <h3 className="block__title"><i className="fas fa-globe-europe"/> Языки </h3>*/}
+        {/*    <Languages/>*/}
+        {/*  </div>*/}
+
+        {/*  <div className="block">*/}
+        {/*    <h3 className="block__title"><i className="fas fa-football-ball"/> Хобби </h3>*/}
+        {/*    <Hobby/>*/}
+        {/*  </div>*/}
+        {/*</aside>*/}
       </div>
 
     </div>

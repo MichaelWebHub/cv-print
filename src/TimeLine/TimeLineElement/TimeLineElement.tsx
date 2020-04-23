@@ -10,9 +10,9 @@ const TimeLineElement: React.FC<ITimeLineElement> = ({ item }) => {
 
 
   return (
-    <div className='timeline__element avoid-page-break'>
+    <div className='timeline__element'>
       <div className='timeline__element-left'>
-        <p className='timeline__element-left--row'>{item.sBeginDate} - {item.sEndDate ? item.sEndDate : 'наст. время'}</p>
+        <p className='timeline__element-left--row'>{item.sBeginDate && <> {`${item.sBeginDate} -`} <br/> </>} {item.sEndDate ? item.sEndDate : 'наст. время'}</p>
         {item.sCountry ? <p className='timeline__element-left--row country'>{item.sCountry}</p> : ''}
       </div>
 
@@ -35,7 +35,7 @@ const TimeLineElement: React.FC<ITimeLineElement> = ({ item }) => {
               <div className='timeline__element-achievements'>
                 {
                   item.aAchievements.map((a: ITimelineAchievement) =>
-                    <div className='timeline__achievement-wrapper' key={a.iId}>
+                    <div className='timeline__achievement-wrapper avoid-page-break' key={a.iId}>
                       <span className='timeline__achievements-label'/>
                       <span className='timeline__achievement'>{a.sName}</span>
                     </div>

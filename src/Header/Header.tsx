@@ -1,5 +1,5 @@
 import React from 'react';
-import pic from './../me.jpg';
+import pic from './../assets/images/papa/papa.jpeg';
 import './Header.scss';
 
 const Header: React.FC = () => {
@@ -9,14 +9,14 @@ const Header: React.FC = () => {
       <img className="header__image" src={pic} alt="me"/>
 
       <div className="header__info">
-        <h1 className="header__name">Michael Kutateladze</h1>
-          <p className="header__position"> Front End Developer </p>
-          <p className="header__position"> <span className='header__experience'>4+ years of experience</span> </p>
+        <h1 className="header__name">Тамази Кутателадзе</h1>
+          <p className="header__position"> Начальник отдела логистики </p>
+          <p className="header__position"> <span className='header__experience'>27 лет опыта</span> </p>
       </div>
 
       <div className="header__contacts">
-        <div className="header__contacts-row"><i className="far fa-envelope"/>michael.kutateladze@gmail.com</div>
-        <div className="header__contacts-row"><i className="fas fa-phone"/>+7 (916) 924 26 94</div>
+        <div className="header__contacts-row"><i className="far fa-envelope"/>t.kutateladze@yandex.ru</div>
+        <div className="header__contacts-row"><i className="fas fa-phone"/>+7 (910) 435 50 85</div>
       </div>
 
     </header>

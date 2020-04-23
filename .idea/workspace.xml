@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4efc2b49-2b91-4efc-9619-1be331165c66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Courses/Courses.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Courses/Courses.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Courses/Courses.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Courses/Courses.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Education/Education.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Languages/Languages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Languages/Languages.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SoftSkills/SoftSkills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoftSkills/SoftSkills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLine.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLine.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLine.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLine.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLineElement/TimeLineElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLineElement/TimeLineElement.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +70,9 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images/papa" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/assets" />
@@ -104,7 +116,8 @@
       <workItem from="1575819392035" duration="63000" />
       <workItem from="1576939093550" duration="305000" />
       <workItem from="1579969709761" duration="304000" />
-      <workItem from="1581276314580" duration="2000" />
+      <workItem from="1581276314580" duration="3866000" />
+      <workItem from="1584448617570" duration="12000" />
     </task>
     <servers />
   </component>
@@ -132,5 +145,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="498" y="147" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581280180327">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="498" y="147" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1581280180327" />
+    <state x="498" y="287" width="683" height="476" key="find.popup" timestamp="1581278091910">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="498" y="287" width="683" height="476" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1581278091910" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1581277158778">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1581277158778" />
   </component>
 </project>
