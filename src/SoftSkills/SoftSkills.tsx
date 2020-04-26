@@ -12,16 +12,13 @@ const SoftSkills: React.FC = () => {
       name: 'Leading a team of 8 developers'
     },
     {
-      name: 'Learning new everyday'
+      name: 'Constantly learning'
     },
     {
-      name: 'Stay focused'
+      name: 'Can work up to 14 hours straight if I am interested'
     },
     {
-      name: 'Agile working'
-    },
-    {
-      name: 'Respect deadlines'
+      name: 'Finished every single project without breaking the deadline'
     },
     {
       name: 'Pay attention to details'

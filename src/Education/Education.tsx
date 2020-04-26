@@ -8,20 +8,20 @@ const Education: React.FC = () => {
   const data: ITimeLine[] = [
     {
       iId: 1,
-      sBeginDate: '09.2016',
+      sBeginDate: '09.2012',
       sEndDate: '06.2018',
       sPlace: 'Gubkin University',
-      sParamName: 'Master of petroleum engineering',
+      sParamName: 'BS and MS - Petroleum engineering',
       sImage: GubkinLogo
     },
-    {
-      iId: 2,
-      sBeginDate: '09.2012',
-      sEndDate: '06.2016',
-      sPlace: 'Gubkin University',
-      sParamName: 'Bachelor of petroleum engineering',
-      sImage: GubkinLogo
-    }
+    // {
+    //   iId: 2,
+    //   sBeginDate: '09.2012',
+    //   sEndDate: '06.2016',
+    //   sPlace: 'Gubkin University',
+    //   sParamName: 'Bachelor of petroleum engineering',
+    //   sImage: GubkinLogo
+    // }
   ];
 
   return (

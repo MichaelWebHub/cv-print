@@ -15,36 +15,37 @@ const WorkExperience: React.FC = () => {
       sEndDate: 'current',
       sPlace: 'PJSC Sberbank',
       sParamName: 'Frontend Developer',
+      sCountry: 'Moscow, Russia',
       sImage: Sberbank,
       aAchievements: [
         {
           iId: 1,
-          sName: 'Implemented Angular and React',
-          iQuarter: 1,
-          iYear: 20184,
-          sDescription: 'Angular',
-        },
-        {
-          iId: 2,
-          sName: 'Built 10 web apps for 350.000+ users',
+          sName: 'Created form handling hook which does not re-render the page, supports infinitely nested fields and is excellent for dynamic forms',
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
         },
         {
           iId: 3,
-          sName: 'Built smooth mobile components with close to native gestures',
+          sName: 'Created Directed Cyclic Graph visualization library with evenly distributed nodes around the process for Process Mining',
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
         },
         {
           iId: 4,
-          sName: 'Drove best practice implementation for my team employees',
+          sName: 'Created library for handling multiple xhr-polling requests simulating web sockets',
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
-        }
+        },
+        {
+          iId: 2,
+          sName: 'Built 11 web apps for 350.000+ users with Angular and React, leading a team of 8 developers',
+          iQuarter: 1,
+          iYear: 20184,
+          sDescription: 'Angular',
+        },
       ]
     },
     {
@@ -53,11 +54,12 @@ const WorkExperience: React.FC = () => {
       sEndDate: 'current',
       sPlace: 'Netology - Online University',
       sParamName: 'Teacher at HTML/CSS course',
+      sCountry: 'Remote',
       sImage: Netology,
       aAchievements: [
         {
           iId: 1,
-          sName: 'Taught 4000+ students the layouts',
+          sName: 'Taught 5000+ students the layouts',
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
@@ -69,6 +71,7 @@ const WorkExperience: React.FC = () => {
       sBeginDate: '01.2015',
       sEndDate: 'current',
       sPlace: 'Freelance Web Developer',
+      sCountry: 'Remote',
       sParamName: '',
       aAchievements: [
         {
@@ -104,13 +107,6 @@ const WorkExperience: React.FC = () => {
       sCountry: 'Munich, Germany',
       aAchievements: [
         {
-          iId: 1,
-          sName: 'Abroad work experience',
-          iQuarter: 1,
-          iYear: 20173,
-          sDescription: 'Angular',
-        },
-        {
           iId: 2,
           sName: 'Modeled oil and gas equipment in 3D',
           iQuarter: 1,
@@ -124,19 +120,13 @@ const WorkExperience: React.FC = () => {
       sBeginDate: '10.2014',
       sEndDate: '11.2017',
       sPlace: 'PSI Software AG',
+      sCountry: 'Moscow, Russia',
       sImage: Psi,
       sParamName: 'Software Engineer',
       aAchievements: [
         {
           iId: 1,
           sName: 'Draw SVG schemas for Gazprom control rooms',
-          iQuarter: 1,
-          iYear: 20173,
-          sDescription: 'Angular',
-        },
-        {
-          iId: 2,
-          sName: 'Wrote M42 scripts to connect schemas and database',
           iQuarter: 1,
           iYear: 20173,
           sDescription: 'Angular',

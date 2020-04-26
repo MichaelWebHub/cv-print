@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4efc2b49-2b91-4efc-9619-1be331165c66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Languages/Languages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Languages/Languages.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Education/Education.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SoftSkills/SoftSkills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoftSkills/SoftSkills.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="papa" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectConfigurationFiles">
@@ -39,7 +44,6 @@
   <component name="ProjectId" id="1OSilWXOBWs1gqSfJirrjVF4kA8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -65,18 +69,6 @@
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -105,6 +97,8 @@
       <workItem from="1576939093550" duration="305000" />
       <workItem from="1579969709761" duration="304000" />
       <workItem from="1581276314580" duration="2000" />
+      <workItem from="1587750516178" duration="597000" />
+      <workItem from="1587887612547" duration="8000" />
     </task>
     <servers />
   </component>
@@ -118,19 +112,24 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587654213916">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587654213916" />
   </component>
 </project>

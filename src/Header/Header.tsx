@@ -11,7 +11,7 @@ const Header: React.FC = () => {
       <div className="header__info">
         <h1 className="header__name">Michael Kutateladze</h1>
           <p className="header__position"> Front End Developer </p>
-          <p className="header__position"> <span className='header__experience'>4+ years of experience</span> </p>
+          <p className="header__position"> <span className='header__experience'>5+ years of experience</span> </p>
       </div>
 
       <div className="header__contacts">
