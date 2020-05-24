@@ -8,7 +8,7 @@ const WorkExperience: React.FC = () => {
     {
       iId: 1,
       sBeginDate: '09.2019',
-      sEndDate: 'наст. время',
+      sEndDate: '03.2020',
       sPlace: 'СИБУР, НИПИГАЗ',
       sParamName: 'Эксперт по складской логистике',
       aAchievements: [
