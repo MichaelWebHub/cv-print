@@ -11,10 +11,10 @@ const TimeLineElement: React.FC<ITimeLineElement> = ({ item }) => {
 
   return (
     <div className='timeline__element avoid-page-break'>
-      <div className='timeline__element-left'>
-        <p className='timeline__element-left--row'>{item.sBeginDate} - {item.sEndDate ? item.sEndDate : 'наст. время'}</p>
-        {item.sCountry ? <p className='timeline__element-left--row country'>{item.sCountry}</p> : ''}
-      </div>
+      {/*<div className='timeline__element-left'>*/}
+      {/*  <p className='timeline__element-left--row'>{item.sBeginDate} - {item.sEndDate ? item.sEndDate : 'наст. время'}</p>*/}
+      {/*  {item.sCountry ? <p className='timeline__element-left--row country'>{item.sCountry}</p> : ''}*/}
+      {/*</div>*/}
 
       <div className={`timeline__element-center`}>
         <div className='timeline__center-inner'/>
@@ -28,6 +28,12 @@ const TimeLineElement: React.FC<ITimeLineElement> = ({ item }) => {
           {item.sPlace}
         </h3>
         {item.sParamName ? <p className='timeline__element-position'>{item.sParamName}</p> : ''}
+
+        <p className='timeline__element-left--row country'>
+          {item.sBeginDate} - {item.sEndDate ? item.sEndDate : 'наст. время'} -
+          {item.sCountry && <span className='timeline__element-left--row country'> {item.sCountry}</span>}
+        </p>
+
 
         {
           item.aAchievements && item.aAchievements.length ?

@@ -49,7 +49,7 @@ const App: React.FC = () => {
           </div>
 
           <div className="block">
-            <h3 className="block__title"><i className="fas fa-football-ball"/> Hobbies </h3>
+            <h3 className="block__title"><i className="fab fa-medium"/> Publications </h3>
             <Hobby/>
           </div>
         </aside>

@@ -27,11 +27,13 @@
   justify-content: flex-end;
 }
 
-.header__contacts-row {
+.header__contacts-row a,
+.header__contacts-row,{
   display: flex;
   align-items: center;
   margin-bottom: 8px;
   @include lightText;
+  text-decoration: none;
 }
 
 .header__contacts-row i {
@@ -45,5 +47,6 @@
 
 .header__position {
   @include lightText;
+  font-weight: 600;
 }
 
