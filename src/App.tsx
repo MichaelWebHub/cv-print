@@ -3,7 +3,6 @@ import './App.scss';
 import Header from './Header/Header';
 import WorkExperience from './WorkExperience/WorkExperience';
 import Education from './Education/Education';
-import Courses from './Courses/Courses';
 import Skills from './Skills/Skills';
 import Languages from './Languages/Languages';
 import SoftSkills from './SoftSkills/SoftSkills';
