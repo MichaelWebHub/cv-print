@@ -138,7 +138,7 @@ const WorkExperience: React.FC = () => {
       iId: 3,
       sBeginDate: '08.1999',
       sEndDate: '12.2004',
-      sPlace: 'Индивидуальное предпринимательство',
+      sPlace: 'Коммерческая деятельность', 
       sParamName: 'Финансовый директор',
       aAchievements: [
         {
