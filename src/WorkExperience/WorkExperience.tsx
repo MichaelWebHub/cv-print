@@ -2,6 +2,7 @@ import React from 'react';
 import TimeLine from '../TimeLine/TimeLine';
 import { ITimeLine } from '../TimeLine/TimeLine.interface';
 import Sberbank from '../assets/images/sber.png';
+import VTB from '../assets/images/vtb.png';
 import Netology from '../assets/images/netology.png';
 import Psi from '../assets/images/psi.png';
 import Ilf from '../assets/images/ilf.png';
@@ -11,10 +12,35 @@ const WorkExperience: React.FC = () => {
   const data: ITimeLine[] = [
     {
       iId: 1,
-      sBeginDate: '05.2018',
+      sBeginDate: '08.2020',
       sEndDate: 'current',
+      sPlace: 'VTB Bank',
+      sParamName: 'Development Team Lead',
+      sCountry: 'Moscow, Russia',
+      sImage: VTB,
+      aAchievements: [
+        {
+          iId: 1,
+          sName: 'Created Node.js CLI for Redux state generation including actions, effects, reducers, and services. One command creates everything needed for a synchronous or asynchronous action',
+          iQuarter: 1,
+          iYear: 20184,
+          sDescription: 'Angular',
+        },
+        {
+          iId: 3,
+          sName: 'Created UI Components Library',
+          iQuarter: 1,
+          iYear: 20184,
+          sDescription: 'Angular',
+        }
+      ]
+    },
+    {
+      iId: 1,
+      sBeginDate: '05.2018',
+      sEndDate: '08.2020',
       sPlace: 'PJSC Sberbank',
-      sParamName: 'Frontend Developer',
+      sParamName: 'Senior Frontend Developer',
       sCountry: 'Moscow, Russia',
       sImage: Sberbank,
       aAchievements: [
@@ -97,42 +123,42 @@ const WorkExperience: React.FC = () => {
         }
       ]
     },
-    {
-      iId: 4,
-      sBeginDate: '09.2017',
-      sEndDate: '11.2017',
-      sPlace: 'ILF Consulting Engineers',
-      sParamName: 'Intern Engineer',
-      sImage: Ilf,
-      sCountry: 'Munich, Germany',
-      aAchievements: [
-        {
-          iId: 2,
-          sName: 'Modeled oil and gas equipment in 3D',
-          iQuarter: 1,
-          iYear: 20173,
-          sDescription: 'Angular',
-        }
-      ]
-    },
-    {
-      iId: 5,
-      sBeginDate: '10.2014',
-      sEndDate: '11.2017',
-      sPlace: 'PSI Software AG',
-      sCountry: 'Moscow, Russia',
-      sImage: Psi,
-      sParamName: 'Software Engineer',
-      aAchievements: [
-        {
-          iId: 1,
-          sName: 'Draw SVG schemas for Gazprom control rooms',
-          iQuarter: 1,
-          iYear: 20173,
-          sDescription: 'Angular',
-        }
-      ]
-    }
+    // {
+    //   iId: 4,
+    //   sBeginDate: '09.2017',
+    //   sEndDate: '11.2017',
+    //   sPlace: 'ILF Consulting Engineers',
+    //   sParamName: 'Intern Engineer',
+    //   sImage: Ilf,
+    //   sCountry: 'Munich, Germany',
+    //   aAchievements: [
+    //     {
+    //       iId: 2,
+    //       sName: 'Modeled oil and gas equipment in 3D',
+    //       iQuarter: 1,
+    //       iYear: 20173,
+    //       sDescription: 'Angular',
+    //     }
+    //   ]
+    // },
+    // {
+    //   iId: 5,
+    //   sBeginDate: '10.2014',
+    //   sEndDate: '11.2017',
+    //   sPlace: 'PSI Software AG',
+    //   sCountry: 'Moscow, Russia',
+    //   sImage: Psi,
+    //   sParamName: 'Software Engineer',
+    //   aAchievements: [
+    //     {
+    //       iId: 1,
+    //       sName: 'Draw SVG schemas for Gazprom control rooms',
+    //       iQuarter: 1,
+    //       iYear: 20173,
+    //       sDescription: 'Angular',
+    //     }
+    //   ]
+    // }
   ];
 
   return (
