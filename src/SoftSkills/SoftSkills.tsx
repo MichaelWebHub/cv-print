@@ -18,11 +18,11 @@ const SoftSkills: React.FC = () => {
       name: 'Can work up to 14 hours straight if I am interested'
     },
     {
-      name: 'Finished every single project without breaking the deadline'
+      name: 'Reducing conflicts to constructive dialogues'
     },
-    {
-      name: 'Pay attention to details'
-    }
+    // {
+    //   name: 'Paying attention to details'
+    // }
   ];
 
   return (

@@ -26,6 +26,7 @@ const Header: React.FC = () => {
           </a>
         </div>
         <div className="header__contacts-row"><i className="fas fa-phone"/>+7 (916) 924 26 94</div>
+        <div className="header__contacts-row"><i className="fas fa-map-marker-alt"/>Moscow, Russia. Willing to relocate</div>
       </div>
 
     </header>

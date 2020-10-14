@@ -21,7 +21,7 @@ const WorkExperience: React.FC = () => {
       aAchievements: [
         {
           iId: 1,
-          sName: 'Created Node.js CLI for Redux state generation including actions, effects, reducers, and services. One command creates everything needed for a synchronous or asynchronous action',
+          sName: 'Created Node.js CLI for creation of components, router, interceptor and redux state',
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',

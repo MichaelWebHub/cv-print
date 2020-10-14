@@ -31,7 +31,7 @@
 .header__contacts-row,{
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   @include lightText;
   text-decoration: none;
 }
@@ -43,6 +43,7 @@
 .header__name {
   margin-bottom: 5px;
   color: $light;
+  font-size: 1.75em;
 }
 
 .header__position {

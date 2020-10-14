@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4efc2b49-2b91-4efc-9619-1be331165c66" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_09_2020,_11_27_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_09_2020__11_27__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hobby/Hobby.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hobby/Hobby.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SoftSkills/SoftSkills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoftSkills/SoftSkills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLineElement/TimeLineElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLineElement/TimeLineElement.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +69,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -67,6 +78,7 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -97,6 +109,10 @@
       <workItem from="1587750516178" duration="597000" />
       <workItem from="1587887612547" duration="8000" />
       <workItem from="1590326109905" duration="322000" />
+      <workItem from="1602443270744" duration="174000" />
+      <workItem from="1602496882846" duration="226000" />
+      <workItem from="1602584857111" duration="619000" />
+      <workItem from="1602665378215" duration="178000" />
     </task>
     <servers />
   </component>
@@ -110,7 +126,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -125,9 +141,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587654213916">
+    <state x="541" y="280" width="598" height="490" key="find.popup" timestamp="1601924034784">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587654213916" />
+    <state x="541" y="280" width="598" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1601924034784" />
   </component>
 </project>

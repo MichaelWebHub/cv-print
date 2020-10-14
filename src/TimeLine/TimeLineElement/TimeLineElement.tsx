@@ -30,8 +30,8 @@ const TimeLineElement: React.FC<ITimeLineElement> = ({ item }) => {
         {item.sParamName ? <p className='timeline__element-position'>{item.sParamName}</p> : ''}
 
         <p className='timeline__element-left--row country'>
-          {item.sBeginDate} - {item.sEndDate ? item.sEndDate : 'наст. время'} -
-          {item.sCountry && <span className='timeline__element-left--row country'> {item.sCountry}</span>}
+          {item.sBeginDate} - {item.sEndDate ? item.sEndDate : 'наст. время'}
+          {item.sCountry && <span className='timeline__element-left--row country'> - {item.sCountry}</span>}
         </p>
 
 
