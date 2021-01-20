@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 export interface ITimeLine {
   iId: number;
@@ -13,9 +13,9 @@ export interface ITimeLine {
 }
 
 export interface ITimelineAchievement {
-  sName: string;
+  sName: ReactNode;
   iId: number;
   iQuarter: number;
   iYear: number;
-  sDescription: string;
+  sDescription: ReactNode;
 }

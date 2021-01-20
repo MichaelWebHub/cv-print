@@ -63,9 +63,10 @@ html, body {
 }
 
 .block__title {
-  height: 25px;
-  margin-bottom: 12px;
+  height: 18px;
+  margin-bottom: 18px;
   color: $dark100;
+  font-size: 18px;
 }
 
 .block__title i {
@@ -86,4 +87,30 @@ html, body {
   .avoid-page-break {
     page-break-inside: avoid;
   }
+
+}
+
+.edu__publication-link {
+  color: #37474F;
+  display: inline-block;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+}
+
+.custom-underline:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #2e86de70;
+  top: 100%;
+  left: 0;
+}
+
+.fa-link {
+  font-size: 12px;
+  margin-left: 3px;
 }

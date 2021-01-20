@@ -10,8 +10,8 @@ const Header: React.FC = () => {
 
       <div className="header__info">
         <h1 className="header__name">Michael Kutateladze</h1>
-          <p className="header__position"> Front End Developer </p>
-          <p className="header__position"> <span className='header__experience'>5+ years of experience</span> </p>
+          <p className="header__position"> Frontend Engineer </p>
+          <p className="header__position"> <span className='header__experience'>6+ years of experience</span> </p>
       </div>
 
       <div className="header__contacts">
@@ -26,7 +26,8 @@ const Header: React.FC = () => {
           </a>
         </div>
         <div className="header__contacts-row"><i className="fas fa-phone"/>+7 (916) 924 26 94</div>
-        <div className="header__contacts-row"><i className="fas fa-map-marker-alt"/>Moscow, Russia. Willing to relocate</div>
+        <div className="header__contacts-row"><i className="fas fa-map-marker-alt"/>Moscow, Russia</div>
+      {/*  Willing to relocate */}
       </div>
 
     </header>

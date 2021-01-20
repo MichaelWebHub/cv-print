@@ -15,20 +15,20 @@ const WorkExperience: React.FC = () => {
       sBeginDate: '08.2020',
       sEndDate: 'current',
       sPlace: 'VTB Bank',
-      sParamName: 'Development Team Lead',
+      sParamName: 'Frontend Engineer',
       sCountry: 'Moscow, Russia',
       sImage: VTB,
       aAchievements: [
         {
           iId: 1,
-          sName: 'Created Node.js CLI for creation of components, router, interceptor and redux state',
+          sName: <a className='edu__publication-link' href='https://www.npmjs.com/package/react-generator-cmd' target='_blank'>Created Node.js CLI for creation of components, router, interceptor and redux state <i className='fa fa-link'/></a>,
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
         },
         {
           iId: 3,
-          sName: 'Created UI Components Library',
+          sName: <a href='https://juicy-book.web.app/' target='_blank' className='edu__publication-link'>Created UI Components Library <i className='fa fa-link'/></a>,
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
@@ -40,38 +40,38 @@ const WorkExperience: React.FC = () => {
       sBeginDate: '05.2018',
       sEndDate: '08.2020',
       sPlace: 'PJSC Sberbank',
-      sParamName: 'Senior Frontend Developer',
+      sParamName: 'Frontend Engineer',
       sCountry: 'Moscow, Russia',
       sImage: Sberbank,
       aAchievements: [
         {
           iId: 1,
-          sName: 'Created form handling hook which does not re-render the page, supports infinitely nested fields and is excellent for dynamic forms',
+          sName: <a href='https://github.com/Michaeladze/useReactiveForm' target='_blank' className='edu__publication-link'>Created React form handling hook which does not re-render the page <i className='fa fa-link'/></a>,
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
         },
         {
           iId: 3,
-          sName: 'Created Directed Cyclic Graph visualization library with evenly distributed nodes around the process for Process Mining',
+          sName: <a href='https://graph-65237.firebaseapp.com/' target='_blank' className='edu__publication-link'>Created Directed Cyclic Graph visualization library with evenly distributed nodes around the process for Process Mining <i className='fa fa-link'/></a>,
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
         },
-        {
-          iId: 4,
-          sName: 'Created library for handling multiple xhr-polling requests simulating web sockets',
-          iQuarter: 1,
-          iYear: 20184,
-          sDescription: 'Angular',
-        },
-        {
-          iId: 2,
-          sName: 'Built 11 web apps for 350.000+ users with Angular and React, leading a team of 8 developers',
-          iQuarter: 1,
-          iYear: 20184,
-          sDescription: 'Angular',
-        },
+        // {
+        //   iId: 4,
+        //   sName: 'Created library for handling multiple xhr-polling requests simulating web sockets',
+        //   iQuarter: 1,
+        //   iYear: 20184,
+        //   sDescription: 'Angular',
+        // },
+        // {
+        //   iId: 2,
+        //   sName: 'Built 11 web apps for 350.000+ users with Angular and React, leading a team of 8 developers',
+        //   iQuarter: 1,
+        //   iYear: 20184,
+        //   sDescription: 'Angular',
+        // },
       ]
     },
     {
@@ -92,37 +92,30 @@ const WorkExperience: React.FC = () => {
         }
       ]
     },
-    {
-      iId: 3,
-      sBeginDate: '01.2015',
-      sEndDate: 'current',
-      sPlace: 'Freelance Web Developer',
-      sCountry: 'Remote',
-      sParamName: '',
-      aAchievements: [
-        {
-          iId: 1,
-          sName: 'Wrote frontend for an e-commerce fashion startup',
-          iQuarter: 1,
-          iYear: 20184,
-          sDescription: 'Angular',
-        },
-        {
-          iId: 2,
-          sName: 'Created a MEAN stack website for a petrochemical company with its own CMS',
-          iQuarter: 1,
-          iYear: 20184,
-          sDescription: 'Angular',
-        },
-        {
-          iId: 3,
-          sName: 'Created a web app for Gubkin SPE where students can learn about oil and gas events and apply for them',
-          iQuarter: 1,
-          iYear: 20184,
-          sDescription: 'Angular',
-        }
-      ]
-    },
+    // {
+    //   iId: 3,
+    //   sBeginDate: '01.2015',
+    //   sEndDate: 'current',
+    //   sPlace: 'Freelance Web Developer',
+    //   sCountry: 'Remote',
+    //   sParamName: '',
+    //   aAchievements: [
+    //     {
+    //       iId: 1,
+    //       sName: 'Wrote frontend for an e-commerce fashion startup',
+    //       iQuarter: 1,
+    //       iYear: 20184,
+    //       sDescription: 'Angular',
+    //     },
+    //     {
+    //       iId: 2,
+    //       sName: 'Created a MEAN stack website for a petrochemical company with its own CMS',
+    //       iQuarter: 1,
+    //       iYear: 20184,
+    //       sDescription: 'Angular',
+    //     }
+    //   ]
+    // },
     // {
     //   iId: 4,
     //   sBeginDate: '09.2017',

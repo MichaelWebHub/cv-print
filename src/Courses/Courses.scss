@@ -17,11 +17,13 @@
 
 .course__provider {
   @include standardText(1rem, 600);
+  font-size: 14px;
   width: 120px;
 }
 
 .course__title {
   @include standardText();
+  font-size: 14px;
   display: flex;
   align-items: center;
 }

@@ -18,17 +18,17 @@ const Courses: React.FC = () => {
     {
       id: 2,
       provider: 'Netology',
-      courses: ['Modern JavaScript', 'JavaScript in Browser', 'AngularJs, NodeJs and MongoDB']
+      courses: ['Modern JavaScript', 'AngularJs, NodeJs and MongoDB']
     },
     {
       id: 3,
       provider: 'Udemy',
-      courses: ['Modern React with Redux', 'Angular 8 - The Complete Guide']
+      courses: ['20+ programming and design courses ']
     },
     {
       id: 4,
       provider: 'JavaScript.ru',
-      courses: ['Angular', 'React']
+      courses: ['Angular', 'TypeScript']
     }
   ];
 

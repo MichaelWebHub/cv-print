@@ -64,7 +64,7 @@ const Hobby: React.FC = () => {
             <div className="soft-skill__circle"/>
             <h3 className="publication__name">
               <a href={el.link}  target="_blank" className="publication__link">
-                {el.title}
+                {el.title} <i className='fa fa-link'/>
               </a>
             </h3>
           </div>
