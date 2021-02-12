@@ -14,54 +14,54 @@ const App: React.FC = () => {
   return (
     <div className="root">
       <Header/>
-
+      
       <div className="body">
         <main className="main">
           <div className="block">
-            <h3 className="block__title"><i className="fas fa-briefcase"/> Work Experience</h3>
-            <WorkExperience/>
+            <h3 className="block__title"> Education </h3>
+            <Education/>
           </div>
           
           <div className="block">
-            <h3 className="block__title"><i className="fas fa-university"/> Education </h3>
-            <Education/>
-          </div>
-  
-          {/*<div className="block">*/}
-          {/*  <h3 className="block__title"><i className="fas fa-graduation-cap"/> Online Courses </h3>*/}
-          {/*  <Courses/>*/}
-          {/*</div>*/}
-  
-          <div className="block">
-            <h3 className="block__title"><i className="fas fa-graduation-cap"/> Certifications </h3>
+            <h3 className="block__title"> Certifications </h3>
             <Certifications/>
           </div>
           
+          <div className="block">
+            <h3 className="block__title"> Courses </h3>
+            <Courses/>
+          </div>
+          
+          <div className="block">
+            <h3 className="block__title"> Work Experience</h3>
+            <WorkExperience/>
+          </div>
+        
         </main>
-
+        
         <aside className="aside">
           <div className="block">
-            <h3 className="block__title"><i className="fas fa-tasks"/> Skills </h3>
+            <h3 className="block__title"> Skills </h3>
             <Skills/>
           </div>
-
+          
+          {/*<div className="block">*/ }
+          {/*  <h3 className="block__title"> Soft Skills </h3>*/ }
+          {/*  <SoftSkills/>*/ }
+          {/*</div>*/ }
+          
           <div className="block">
-            <h3 className="block__title"><i className="fas fa-user"/> Soft Skills </h3>
-            <SoftSkills/>
-          </div>
-
-          <div className="block">
-            <h3 className="block__title"><i className="fas fa-globe-europe"/> Languages </h3>
+            <h3 className="block__title"> Languages </h3>
             <Languages/>
           </div>
-
+          
           <div className="block">
-            <h3 className="block__title"><i className="fab fa-medium"/> Publications </h3>
+            <h3 className="block__title"> Publications </h3>
             <Hobby/>
           </div>
         </aside>
       </div>
-
+    
     </div>
   );
 }

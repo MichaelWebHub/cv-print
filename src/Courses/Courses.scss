@@ -6,9 +6,9 @@
 
 .course {
   display: flex;
-  margin-top: 8px;
-  border-bottom: 1px solid $light100;
-  padding-bottom: 8px;
+  margin-top: 4px;
+  //border-bottom: 1px solid $light100;
+  padding-bottom: 4px;
 }
 
 .course:last-of-type {
@@ -18,7 +18,7 @@
 .course__provider {
   @include standardText(1rem, 600);
   font-size: 14px;
-  width: 120px;
+  width: 100px;
 }
 
 .course__title {

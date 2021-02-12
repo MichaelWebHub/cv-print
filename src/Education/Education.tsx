@@ -11,7 +11,7 @@ const Education: React.FC = () => {
       sBeginDate: '09.2012',
       sEndDate: '06.2018',
       sPlace: 'Gubkin University',
-      sParamName: 'BS and MS - Petroleum engineering',
+      sParamName: 'BSc and MSc - Petroleum engineering',
       sImage: GubkinLogo,
       aAchievements: [
         {

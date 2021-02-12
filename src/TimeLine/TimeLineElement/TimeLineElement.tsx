@@ -16,9 +16,9 @@ const TimeLineElement: React.FC<ITimeLineElement> = ({ item }) => {
       {/*  {item.sCountry ? <p className='timeline__element-left--row country'>{item.sCountry}</p> : ''}*/}
       {/*</div>*/}
 
-      <div className={`timeline__element-center`}>
-        <div className='timeline__center-inner'/>
-      </div>
+      {/*<div className={`timeline__element-center`}>*/}
+      {/*  <div className='timeline__center-inner'/>*/}
+      {/*</div>*/}
       <div className={`timeline__element-right`}>
         <h3 className='timeline__element-name'>
           {item.sImage && (
@@ -27,29 +27,31 @@ const TimeLineElement: React.FC<ITimeLineElement> = ({ item }) => {
             </div>)}
           {item.sPlace}
         </h3>
-        {item.sParamName ? <p className='timeline__element-position'>{item.sParamName}</p> : ''}
-
-        <p className='timeline__element-left--row country'>
-          {item.sBeginDate} - {item.sEndDate ? item.sEndDate : 'наст. время'}
-          {item.sCountry && <span className='timeline__element-left--row country'> - {item.sCountry}</span>}
-        </p>
-
-
-        {
-          item.aAchievements && item.aAchievements.length ?
-            (
-              <div className='timeline__element-achievements'>
-                {
-                  item.aAchievements.map((a: ITimelineAchievement) =>
-                    <div className='timeline__achievement-wrapper' key={a.iId}>
-                      <span className='timeline__achievements-label'>-</span>
-                      <span className='timeline__achievement'>{a.sName}</span>
-                    </div>
-                  )
-                }
-              </div>
-            ) : ''
-        }
+        <div style={{paddingLeft: '45px'}}>
+          {item.sParamName ? <p className='timeline__element-position'>{item.sParamName}</p> : ''}
+  
+          <p className='timeline__element-left--row country'>
+            {item.sBeginDate} - {item.sEndDate ? item.sEndDate : 'наст. время'}
+            {item.sCountry && <span className='timeline__element-left--row country'> - {item.sCountry}</span>}
+          </p>
+  
+  
+          {
+            item.aAchievements && item.aAchievements.length ?
+              (
+                <div className='timeline__element-achievements'>
+                  {
+                    item.aAchievements.map((a: ITimelineAchievement) =>
+                      <div className='timeline__achievement-wrapper' key={a.iId}>
+                        <span className='timeline__achievements-label'></span>
+                        <span className='timeline__achievement'>{a.sName}</span>
+                      </div>
+                    )
+                  }
+                </div>
+              ) : ''
+          }
+        </div>
 
       </div>
     </div>

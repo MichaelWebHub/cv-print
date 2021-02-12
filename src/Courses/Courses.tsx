@@ -13,23 +13,23 @@ const Courses: React.FC = () => {
     {
       id: 1,
       provider: 'GeekBrains',
-      courses: ['Frontend Developer']
+      courses: ['Frontend Development Career Track']
     },
     {
       id: 2,
       provider: 'Netology',
-      courses: ['Modern JavaScript', 'AngularJs, NodeJs and MongoDB']
+      courses: ['JavaScript, AngularJs, NodeJs and MongoDB']
     },
     {
       id: 3,
       provider: 'Udemy',
       courses: ['20+ programming and design courses ']
     },
-    {
-      id: 4,
-      provider: 'JavaScript.ru',
-      courses: ['Angular', 'TypeScript']
-    }
+    // {
+    //   id: 4,
+    //   provider: 'JavaScript.ru',
+    //   courses: ['Angular', 'TypeScript']
+    // }
   ];
 
   return (

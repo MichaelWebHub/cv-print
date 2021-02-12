@@ -44,30 +44,35 @@ html, body {
 
 .body {
   display: flex;
-  height: calc(100vh - 140px);
+  height: calc(100vh - 110px);
 }
 
 .main {
-  width: calc(100% - 270px);
+  width: calc(100% - 250px);
   padding: 20px;
-  padding-right: 40px;
+  //padding-right: 40px;
 }
 
 .aside {
   background: $light200;
-  width: 270px;
+  width: 250px;
   padding: 20px;
 }
 
 .block {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.main .block:not(:last-of-type) {
+  border-bottom: 1px solid #efefef;
 }
 
 .block__title {
-  height: 20px;
+  height: 21px;
   margin-bottom: 18px;
   color: $dark100;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .block__title i {
