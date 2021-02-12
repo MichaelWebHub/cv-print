@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <img className="header__image" src={pic} alt="me"/>
 
       <div className="header__info">
-        <h1 className="header__name">Michael Kutateladze</h1>
+        <h1 className="header__name">Mikhail Kutateladze</h1>
           <p className="header__position"> Software Engineer - Frontend </p>
           {/*<p className="header__position"> <span className='header__experience'>5+ years of experience</span> </p>*/}
       </div>

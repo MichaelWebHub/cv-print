@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4efc2b49-2b91-4efc-9619-1be331165c66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Courses/Courses.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Courses/Courses.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Courses/Courses.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Courses/Courses.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Education/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLine.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLine.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLineElement/TimeLineElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLineElement/TimeLineElement.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +111,7 @@
       <workItem from="1611767274991" duration="1669000" />
       <workItem from="1611869320564" duration="217000" />
       <workItem from="1612097783854" duration="22000" />
-      <workItem from="1613116798848" duration="2748000" />
+      <workItem from="1613116798848" duration="2919000" />
     </task>
     <servers />
   </component>
