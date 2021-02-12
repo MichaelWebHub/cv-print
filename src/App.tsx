@@ -8,6 +8,7 @@ import Languages from './Languages/Languages';
 import SoftSkills from './SoftSkills/SoftSkills';
 import Hobby from './Hobby/Hobby';
 import Courses from './Courses/Courses';
+import Certifications from './Certifications/Certifications';
 
 const App: React.FC = () => {
   return (
@@ -17,19 +18,25 @@ const App: React.FC = () => {
       <div className="body">
         <main className="main">
           <div className="block">
+            <h3 className="block__title"><i className="fas fa-briefcase"/> Work Experience</h3>
+            <WorkExperience/>
+          </div>
+          
+          <div className="block">
             <h3 className="block__title"><i className="fas fa-university"/> Education </h3>
             <Education/>
           </div>
   
+          {/*<div className="block">*/}
+          {/*  <h3 className="block__title"><i className="fas fa-graduation-cap"/> Online Courses </h3>*/}
+          {/*  <Courses/>*/}
+          {/*</div>*/}
+  
           <div className="block">
-            <h3 className="block__title"><i className="fas fa-graduation-cap"/> Online Courses </h3>
-            <Courses/>
+            <h3 className="block__title"><i className="fas fa-graduation-cap"/> Certifications </h3>
+            <Certifications/>
           </div>
           
-          <div className="block">
-            <h3 className="block__title"><i className="fas fa-briefcase"/> Work Experience</h3>
-            <WorkExperience/>
-          </div>
         </main>
 
         <aside className="aside">

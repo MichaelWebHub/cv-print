@@ -15,7 +15,7 @@ const WorkExperience: React.FC = () => {
       sBeginDate: '08.2020',
       sEndDate: 'current',
       sPlace: 'VTB Bank',
-      sParamName: 'Frontend Engineer',
+      sParamName: 'Software Engineer - Frontend',
       sCountry: 'Moscow, Russia',
       sImage: VTB,
       aAchievements: [
@@ -40,20 +40,20 @@ const WorkExperience: React.FC = () => {
       sBeginDate: '05.2018',
       sEndDate: '08.2020',
       sPlace: 'PJSC Sberbank',
-      sParamName: 'Frontend Engineer',
+      sParamName: 'Software Engineer - Frontend',
       sCountry: 'Moscow, Russia',
       sImage: Sberbank,
       aAchievements: [
         {
           iId: 1,
-          sName: <a href='https://github.com/Michaeladze/useReactiveForm' target='_blank' className='edu__publication-link'>Created React form handling hook which does not re-render the page <i className='fa fa-link'/></a>,
+          sName: <a href='https://github.com/Michaeladze/useReactiveForm' target='_blank' className='edu__publication-link'>Created React form handling hook <i className='fa fa-link'/></a>,
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',
         },
         {
           iId: 3,
-          sName: <a href='https://graph-65237.firebaseapp.com/' target='_blank' className='edu__publication-link'>Created Directed Cyclic Graph visualization library with evenly distributed nodes around the process for Process Mining <i className='fa fa-link'/></a>,
+          sName: <a href='https://graph-65237.firebaseapp.com/' target='_blank' className='edu__publication-link'>Developed Directed Cyclic Graph visualization algorithm for proportional distribution of nodes around the process <i className='fa fa-link'/></a>,
           iQuarter: 1,
           iYear: 20184,
           sDescription: 'Angular',

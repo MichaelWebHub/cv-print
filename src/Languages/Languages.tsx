@@ -19,9 +19,9 @@ const Languages: React.FC= () => {
     },
     {
       id: 2,
-      flag: '🇺🇸',
+      flag: '🇬🇧',
       language: 'English',
-      level: 'Upper Intermediate (FCE 170)'
+      level: 'C1 Advanced - TOEFL IBT 97/120'
     },
     // {
     //   id: 3,

@@ -127,9 +127,9 @@ const Skills: React.FC = () => {
             {el.icon ? <i className={`skill__image ${el.class} ${el.icon}`}/> : ''}
             {el.image ? <img className='skill__image' src={el.image} alt=""/> : ''}
             <span className='skill__name'>{el.name}</span>
-            <div className="skill__scale">
-              <div className="skill__scale-inner" style={{width: `${el.rating * 10}%`}}/>
-            </div>
+            {/*<div className="skill__scale">*/}
+            {/*  <div className="skill__scale-inner" style={{width: `${el.rating * 10}%`}}/>*/}
+            {/*</div>*/}
           </div>
         ))
       }

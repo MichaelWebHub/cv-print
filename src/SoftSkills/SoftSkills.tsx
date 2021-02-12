@@ -9,9 +9,6 @@ const SoftSkills: React.FC = () => {
 
   const data: ISoftSkill[] = [
     {
-      name: 'Leading a team of a few developers'
-    },
-    {
       name: 'Constantly learning'
     },
     {

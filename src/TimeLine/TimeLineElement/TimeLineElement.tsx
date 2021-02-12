@@ -42,7 +42,7 @@ const TimeLineElement: React.FC<ITimeLineElement> = ({ item }) => {
                 {
                   item.aAchievements.map((a: ITimelineAchievement) =>
                     <div className='timeline__achievement-wrapper' key={a.iId}>
-                      <span className='timeline__achievements-label'/>
+                      <span className='timeline__achievements-label'>-</span>
                       <span className='timeline__achievement'>{a.sName}</span>
                     </div>
                   )
