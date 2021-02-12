@@ -1,75 +1,50 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import './Hobby.scss';
+import {GiTennisBall, GiWaveSurfer, GiCook} from 'react-icons/gi';
+import {AiOutlineFund} from 'react-icons/ai';
+import {IoTennisballOutline, IoCodeSlashOutline} from 'react-icons/io5';
 
-export interface IHobby {
+interface IHobby {
   id: number;
-  icon: string;
+  icon: ReactNode;
   name: string;
-}
-
-export interface IPublications {
-  id: string;
-  link: string;
-  title: string;
 }
 
 const Hobby: React.FC = () => {
 
-  // const data: IHobby[] = [
-  //   {
-  //     id: 1,
-  //     icon: 'fas fa-book',
-  //     name: 'Read'
-  //   },
-  //   {
-  //     id: 2,
-  //     icon: 'fas fa-file-code',
-  //     name: 'Code'
-  //   },
-  //   {
-  //     id: 3,
-  //     icon: 'fas fa-plane',
-  //     name: 'Travel'
-  //   },
-  //   {
-  //     id: 4,
-  //     icon: 'fas fa-chart-bar',
-  //     name: 'Trade'
-  //   }
-  // ];
-
-  const data: IPublications[] = [
+  const data: IHobby[] = [
     {
-      id: '1',
-      link: 'https://medium.com/swlh/react-router-with-a-single-config-file-61777f306b4f?source=friends_link&sk=77448241572e6b4c32b07cef8f4cfe66',
-      title: 'React Router with a single config file'
+      id: 1,
+      icon: <IoTennisballOutline/>,
+      name: 'Tennis'
     },
     {
-      id: '2',
-      link: 'https://medium.com/@michael.kutateladze/painless-react-form-handling-with-usereactiveform-827312878458?source=friends_link&sk=d86dfa4f1ce34549dc448296fb510dda',
-      title: 'React Form Handling with useReactiveForm'
+      id: 2,
+      icon: <GiWaveSurfer/>,
+      name: 'Surf'
     },
     {
-      id: '3',
-      link: 'https://medium.com/@michael.kutateladze/comprehensible-redux-for-react-applications-4a9e7ce1dba1?source=friends_link&sk=eb3fc0c9d38c60b52318e969cdc5f15a',
-      title: 'Comprehensible Redux for React applications'
+      id: 3,
+      icon: <GiCook/>,
+      name: 'Cook'
+    },
+    {
+      id: 4,
+      icon: <AiOutlineFund/>,
+      name: 'Trade'
     }
-  ]
+  ];
+  
+  const hobbiesJSX = data.map((h: IHobby) => (
+    <div key={h.id} className='hobby'>
+      {h.icon}
+      <p className='hobby__name'>{h.name}</p>
+    </div>
+  ))
 
   return (
-    <div className='publications'>
-      {
-        data.map((el: IPublications) => (
-          <div className="publication" key={el.id}>
-            <div className="soft-skill__circle"/>
-            <h3 className="publication__name">
-              <a href={el.link}  target="_blank" className="publication__link">
-                {el.title} <i className='fa fa-link'/>
-              </a>
-            </h3>
-          </div>
-        ))
-      }
+    <div className='hobbies'>
+      {hobbiesJSX}
     </div>
   );
 };

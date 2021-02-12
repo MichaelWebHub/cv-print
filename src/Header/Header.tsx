@@ -18,13 +18,13 @@ const Header: React.FC = () => {
         <div className="header__contacts-row">
             <i className="far fa-envelope"/>michael.kutateladze@gmail.com
         </div>
-        {/*<div className="header__contacts-row">*/}
-        {/*  <a href="https://www.linkedin.com/in/michaeladze/" target='_blank'>*/}
-        {/*    <i className="fab fa-linkedin"/>michaeladze*/}
-        {/*  </a>*/}
-        {/*</div>*/}
+        <div className="header__contacts-row">
+          <a href="https://www.linkedin.com/in/michaeladze/" target='_blank'>
+            <i className="fab fa-linkedin"/>michaeladze
+          </a>
+        </div>
         <div className="header__contacts-row"><i className="fas fa-phone"/>+7 (916) 924 26 94</div>
-        <div className="header__contacts-row"><i className="fas fa-map-marker-alt"/>Moscow, Russia</div>
+        {/*<div className="header__contacts-row"><i className="fas fa-map-marker-alt"/>Moscow, Russia</div>*/}
       {/*  Willing to relocate */}
       </div>
 

@@ -1,0 +1,32 @@
+@import "../_variables";
+
+.hobbies {
+  display: flex;
+}
+
+.hobby {
+  width: 25%;
+  text-align: center;
+}
+
+.hobby__icon {
+  @include standardText(20px, 400, $dark100);
+}
+
+.hobby__name {
+  @include standardText(12px);
+}
+
+.publication {
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.publication {
+  line-height: 1;
+}
+
+.publication__link {
+  @include standardText(16px, 400, $dark100);
+  line-height: 1;
+}

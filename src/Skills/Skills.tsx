@@ -100,6 +100,18 @@ const Skills: React.FC = () => {
       name: 'Git',
       rating: 6.5,
       class: 'git',
+    },
+    {
+      id: 8,
+      name: 'Java',
+      rating: 3.5,
+      class: 'java',
+    },
+    {
+      id: 9,
+      name: 'C++',
+      rating: 1.5,
+      class: 'cpp',
     }
   ];
 

@@ -6,9 +6,11 @@ import Education from './Education/Education';
 import Skills from './Skills/Skills';
 import Languages from './Languages/Languages';
 import SoftSkills from './SoftSkills/SoftSkills';
-import Hobby from './Hobby/Hobby';
+import Publication from './Publication/Publication';
 import Courses from './Courses/Courses';
 import Certifications from './Certifications/Certifications';
+import Summary from './Summary/Summary';
+import Hobby from './Hobby/Hobby';
 
 const App: React.FC = () => {
   return (
@@ -17,9 +19,15 @@ const App: React.FC = () => {
       
       <div className="body">
         <main className="main">
+          
           <div className="block">
-            <h3 className="block__title"> Education </h3>
-            <Education/>
+            <h3 className="block__title"> About</h3>
+            <Summary/>
+          </div>
+          
+          <div className="block">
+            <h3 className="block__title"> Work Experience</h3>
+            <WorkExperience/>
           </div>
           
           <div className="block">
@@ -28,14 +36,14 @@ const App: React.FC = () => {
           </div>
           
           <div className="block">
-            <h3 className="block__title"> Courses </h3>
-            <Courses/>
+            <h3 className="block__title"> Education </h3>
+            <Education/>
           </div>
           
-          <div className="block">
-            <h3 className="block__title"> Work Experience</h3>
-            <WorkExperience/>
-          </div>
+          {/*<div className="block">*/ }
+          {/*  <h3 className="block__title"> Courses </h3>*/ }
+          {/*  <Courses/>*/ }
+          {/*</div>*/ }
         
         </main>
         
@@ -49,6 +57,11 @@ const App: React.FC = () => {
           {/*  <h3 className="block__title"> Soft Skills </h3>*/ }
           {/*  <SoftSkills/>*/ }
           {/*</div>*/ }
+  
+          <div className="block">
+            <h3 className="block__title"> Publications </h3>
+            <Publication/>
+          </div>
           
           <div className="block">
             <h3 className="block__title"> Languages </h3>
@@ -56,7 +69,7 @@ const App: React.FC = () => {
           </div>
           
           <div className="block">
-            <h3 className="block__title"> Publications </h3>
+            <h3 className="block__title"> Hobbies </h3>
             <Hobby/>
           </div>
         </aside>
