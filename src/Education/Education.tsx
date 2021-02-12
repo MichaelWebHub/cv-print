@@ -1,7 +1,7 @@
 import React from 'react';
 import TimeLine from '../TimeLine/TimeLine';
 import { ITimeLine } from '../TimeLine/TimeLine.interface';
-import GubkinLogo  from '../assets/images/gubkin.png'
+import GubkinLogo  from '../assets/images/gubkin.svg'
 
 const Education: React.FC = () => {
 

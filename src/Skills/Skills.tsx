@@ -1,10 +1,4 @@
 import React from 'react';
-import redux from '../redux.svg';
-import mongo from '../mongodb-icon.svg';
-import rxjs from '../rxjs.png';
-import ionic from '../ionic.png';
-import ns from '../ns.png';
-import ts from '../ts.png';
 import './Skills.scss';
 
 export interface ISkill {
@@ -21,28 +15,24 @@ const Skills: React.FC = () => {
   const data: ISkill[] = [
     {
       id: 1,
-      icon: 'fab fa-html5',
       name: 'HTML',
       rating: 9.75,
       class: 'html',
     },
     {
       id: 2,
-      icon: 'fab fa-css3-alt',
       name: 'CSS',
       rating: 9.75,
       class: 'css',
     },
     {
       id: 3,
-      icon: 'fab fa-js-square',
       name: 'JavaScript',
       rating: 9.5,
       class: 'javascript',
     },
     {
       id: 13,
-      image: ts,
       name: 'TypeScript',
       rating: 8,
       class: 'typescript',
@@ -56,7 +46,6 @@ const Skills: React.FC = () => {
     // },
     {
       id: 5,
-      icon: 'fab fa-react',
       name: 'React',
       rating: 9.5,
       class: 'react',
@@ -70,28 +59,24 @@ const Skills: React.FC = () => {
     // },
     {
       id: 6,
-      image: redux,
       name: 'Redux',
       rating: 10,
       class: 'redux',
     },
     {
       id: 11,
-      image: rxjs,
       name: 'RxJs',
       rating: 9,
       class: 'rxjs',
     },
     {
       id: 8,
-      image: mongo,
       name: 'MongoDB',
       rating: 7,
       class: 'mongo',
     },
     {
       id: 9,
-      icon: 'fab fa-node-js',
       name: 'NodeJS',
       rating: 6,
       class: 'node'
@@ -112,7 +97,6 @@ const Skills: React.FC = () => {
     // },
     {
       id: 7,
-      icon: 'fab fa-github',
       name: 'Git',
       rating: 6.5,
       class: 'git',

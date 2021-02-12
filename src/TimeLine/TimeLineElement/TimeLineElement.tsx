@@ -23,7 +23,7 @@ const TimeLineElement: React.FC<ITimeLineElement> = ({ item }) => {
         <h3 className='timeline__element-name'>
           {item.sImage && (
             <div className='timeline__element-logo--wrapper'>
-              <img className='timeline__element-logo' style={{width: item.sImageWidth ? item.sImageWidth  : ''}} src={item.sImage} alt=''/>
+              <img className={`timeline__element-logo timeline__element-logo-work--${item.iId}`} style={{width: item.sImageWidth ? item.sImageWidth  : ''}} src={item.sImage} alt=''/>
             </div>)}
           {item.sPlace}
         </h3>

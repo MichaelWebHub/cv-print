@@ -1,6 +1,6 @@
 import React from 'react';
 import './Certifications.scss';
-import microsoft from '../assets/images/microsoft.png';
+import microsoft from '../assets/images/microsoft.svg';
 
 interface ICertificate {
   id: number;

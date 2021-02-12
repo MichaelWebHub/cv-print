@@ -1,11 +1,9 @@
 import React from 'react';
 import TimeLine from '../TimeLine/TimeLine';
 import { ITimeLine } from '../TimeLine/TimeLine.interface';
-import Sberbank from '../assets/images/sber.png';
-import VTB from '../assets/images/vtb.png';
-import Netology from '../assets/images/netology.png';
-import Psi from '../assets/images/psi.png';
-import Ilf from '../assets/images/ilf.png';
+import Sberbank from '../assets/images/sber.svg';
+import VTB from '../assets/images/vtb.svg';
+import Netology from '../assets/images/netology.svg';
 
 const WorkExperience: React.FC = () => {
 
