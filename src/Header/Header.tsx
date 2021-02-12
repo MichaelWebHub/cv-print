@@ -16,9 +16,7 @@ const Header: React.FC = () => {
 
       <div className="header__contacts">
         <div className="header__contacts-row">
-          <a href="mailto:michael.kutateladze@gmail.com">
             <i className="far fa-envelope"/>michael.kutateladze@gmail.com
-          </a>
         </div>
         {/*<div className="header__contacts-row">*/}
         {/*  <a href="https://www.linkedin.com/in/michaeladze/" target='_blank'>*/}

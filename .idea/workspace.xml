@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4efc2b49-2b91-4efc-9619-1be331165c66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/sber.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/vtb.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Certifications/Certifications.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Certifications/Certifications.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Certifications/Certifications.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Certifications/Certifications.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Education/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLine.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLine.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TimeLine/TimeLineElement/TimeLineElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeLine/TimeLineElement/TimeLineElement.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkExperience/WorkExperience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/Microsoft-Logo-icon-png-Transparent-Background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/gubkin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/microsoft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/netology.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/sber.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/vtb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
