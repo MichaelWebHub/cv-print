@@ -11,7 +11,7 @@ const WorkExperience: React.FC = () => {
     {
       iId: 1,
       sBeginDate: '08.2020',
-      sEndDate: 'current',
+      sEndDate: 'present',
       sPlace: 'VTB Bank',
       sParamName: 'Software Engineer - Frontend',
       sCountry: 'Moscow, Russia',
@@ -75,7 +75,7 @@ const WorkExperience: React.FC = () => {
     {
       iId: 2,
       sBeginDate: '05.2017',
-      sEndDate: 'current',
+      sEndDate: 'present',
       sPlace: 'Netology University',
       sParamName: 'Teacher at HTML/CSS course',
       sCountry: 'Remote',
@@ -93,7 +93,7 @@ const WorkExperience: React.FC = () => {
     // {
     //   iId: 3,
     //   sBeginDate: '01.2015',
-    //   sEndDate: 'current',
+    //   sEndDate: 'present',
     //   sPlace: 'Freelance Web Developer',
     //   sCountry: 'Remote',
     //   sParamName: '',
